@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 class QuizEnd extends Component {
+
     handleResetClick() {
         this.props.resetClickHandler()
     }
@@ -12,7 +13,5 @@ class QuizEnd extends Component {
             </div>
             )
     }
-
-
 }
 export default QuizEnd
